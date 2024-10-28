@@ -40,7 +40,7 @@ Expone la API a los usuarios permitiendo la interacción con la aplicación medi
   de este archivo **src/main/resources/db.sql** al momento de ejecutar los querys asegurese de que en el archivo **application.properties** del proyecto
   esten configurados el puerto de la conexióna la db, el nombre de la db junto a su usuario y contraseña.
 
-## Instalación y Prueba
+## Ejecución y Prueba
 
 1. Ejecutar la aplicación
    ```
