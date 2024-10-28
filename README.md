@@ -62,7 +62,7 @@ La API esta disponible en http://localhost:8080
 ### Obtener Todos los Catálogos
 - **URL**: `/api/catalog`
 - **Método**: `GET`
-- **Descripción**: Lista todos los catálogos junto con sus valores actuales.
+- **Descripción**: Lista todos los catálogos junto con sus valores actuales, Favor de ejecutar este endpoint y asi conocer los catalogs y sus ID para poder modificar su valor.
 
 ### Swagger
   ```
