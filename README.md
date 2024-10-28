@@ -26,7 +26,7 @@ Expone la API a los usuarios permitiendo la interacción con la aplicación medi
 ## Instalación
 1. Clona este repositorio:
    ```
-   git clone [https://github.com/tu-usuario/tu-proyecto.git](https://github.com/lsaulcastro/userCreator.git)
+   git clone https://github.com/tu-usuario/tu-proyecto.git
     ```
 2. Instalar dependencias
    ```
