@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:latest
+    container_name: user_creator
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin_pwd
+      POSTGRES_DB: user_creator_db
+    ports:
+      - "3320:5432"
+    volumes:
+      - postgres_user_data:/var/lib/postgresql/data
+      - ./src/main/resources:/docker-entrypoint-initdb.d
+volumes:
+  postgres_user_data:
