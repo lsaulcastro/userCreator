@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 10/27/2024
  */
 @RestController
-@RequestMapping("/api/users")
+@RequestMapping("/api/user")
 public class UserController {
 
     private final IUserService userService;
@@ -28,7 +28,7 @@ public class UserController {
         this.userService = userService;
     }
 
-    @PostMapping("/save")
+    @PostMapping()
     public ResponseEntity<GenericResponse<UserResponseDto>> saveUser(@Valid @RequestBody UserDto userDto) {
         return new ResponseEntity<>(new GenericResponse<>(HttpStatus.CREATED, userService.save(userDto)), HttpStatus.CREATED);
     }
